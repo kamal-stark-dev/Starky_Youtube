@@ -1,250 +1,250 @@
 .video-container {
-    width: 68%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .video-container video {
-    width: 90%;
-    aspect-ratio: 16 / 9;
+  width: 90%;
+  aspect-ratio: 16 / 9;
 }
 
-.video-container video:focus{
-    outline: none;
+.video-container video:focus {
+  outline: none;
 }
 
 .video-container .video-information {
-    width: 90%;
+  width: 90%;
 }
 
 .video-title {
-    margin-bottom: 0;
-    font-size: 1.4rem;
+  margin-bottom: 0;
+  font-size: 1.4rem;
 }
 
 .video-likes {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .left-video-side,
 .right-video-side {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.left-video-side .channel-owner-image  {
-    height: 52px;
-    border-radius: 27px;
-    cursor: pointer;
+.left-video-side .channel-owner-image {
+  height: 52px;
+  border-radius: 27px;
+  cursor: pointer;
 }
 
 .left-video-side .channel-info {
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 12px;
 }
 
 .left-video-side .channel-info .checkmark {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .left-video-side .channel-info .checkmark img {
-    height: 13px;
-    margin-top: 21px;
-    margin-left: 6px;
+  height: 13px;
+  margin-top: 21px;
+  margin-left: 6px;
 }
 
 .left-video-side .subscribe-button {
-    padding: 11px 18px;
-    border: none;
-    color: #222222;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 40px;
-    margin-left: 40px;
-    background-color: white;
-    word-spacing: 0.3rem;
-    cursor: pointer;
+  padding: 11px 18px;
+  border: none;
+  color: #222222;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 40px;
+  margin-left: 40px;
+  background-color: white;
+  word-spacing: 0.3rem;
+  cursor: pointer;
 }
 
 .left-video-side .subscribe-button:hover {
-    opacity: 0.95;
+  opacity: 0.95;
 }
 
 .right-video-side img {
-    width: 20px;
+  width: 20px;
 }
 
 .right-video-side .like-count,
 .right-video-side .clip-icon,
 .right-video-side .dislike-button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .right-video-side .like-count p,
 .right-video-side .clip-icon p {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .right-video-side .icon-border {
-    height: 42px;
-    margin-left: 8px;
-    background-color: #272727;
-    padding: 0px 13px;
+  height: 42px;
+  margin-left: 8px;
+  background-color: #272727;
+  padding: 0px 13px;
 }
 
 .right-video-side .icon-border:hover {
-    background-color: #484848;
+  background-color: #484848;
+  cursor: pointer;
 }
 
 .video-likes .vr {
-    border-left: 1px solid gray;
-    height: 28px;
-    z-index: 1;
+  border-left: 1px solid gray;
+  height: 28px;
+  z-index: 1;
 }
 
 .description {
-    background-color: rgba(58, 58, 58, 0.9);
-    border-radius: 12px;
-    padding: 10px 12px;
-    margin-top: 2px;
-    cursor: pointer;
+  background-color: rgba(58, 58, 58, 0.9);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-top: 2px;
+  cursor: pointer;
 }
 
 .description:hover {
-    background-color: #484848;
+  background-color: #484848;
 }
 
 .description p {
-    margin-top: 0;
-    margin-bottom: 2px;
-    font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 16px;
 }
 
 .comment-section .top-part {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .comment-section .top-part .sort-by {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .comment-section .top-part .sort-by p {
-    margin-left: 10px;
-    font-weight: 700;
+  margin-left: 10px;
+  font-weight: 700;
 }
 
-.comment-section .middle-part{
-    margin-top: 16px;
-    display: flex;
-
+.comment-section .middle-part {
+  margin-top: 16px;
+  display: flex;
 }
 
 .comment-section .middle-part img,
-.comment-section .bottom-part .comment img{
-    height: 48px;
-    border-radius: 24px;
-    margin-right: 15px;
+.comment-section .bottom-part .comment img {
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 15px;
 }
 
-.comment-section .middle-part textarea{
-    border: none;
-    border-bottom: 2px solid gray;
-    width: 90%;
-    background: none;
-    resize: none;
-    color: white;
-    font-size: 16px;
-    overflow-y: hidden;
-    height: 24px;
-    font-family: Roboto, Arial;
-    transition: border-color 150ms ease-in;
+.comment-section .middle-part textarea {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 90%;
+  background: none;
+  resize: none;
+  color: white;
+  font-size: 16px;
+  overflow-y: hidden;
+  height: 24px;
+  font-family: Roboto, Arial;
+  transition: border-color 150ms ease-in;
 }
 
 .comment-section .middle-part textarea:focus {
-    border: none;
-    height:24px;
-    border-bottom: 2px solid white;
-    outline: none;
+  border: none;
+  height: 24px;
+  border-bottom: 2px solid white;
+  outline: none;
 }
 
-.comment-section .bottom-part .comment{
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
+.comment-section .bottom-part .comment {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.comment-section .bottom-part .comment:nth-child(1){
-    margin-top: 40px;
+.comment-section .bottom-part .comment:nth-child(1) {
+  margin-top: 40px;
 }
 
 .comment-section .bottom-part .upper,
 .comment-section .bottom-part .middle,
 .comment-section .bottom-part .lower {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .comment-section .bottom-part .upper p,
 .comment-section .bottom-part .middle p,
 .comment-section .bottom-part .lower p {
-    margin: 0;
+  margin: 0;
 }
 
-.comment-section .bottom-part .upper .username{
-    font-size: 16px;
-    font-weight: 500;
+.comment-section .bottom-part .upper .username {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.comment-section .bottom-part .upper .upload-time{
-    margin-left: 5px;
-    font-size: 13.5px;
-    color:gray;
-    transition: color 50ms ease-in-out;
+.comment-section .bottom-part .upper .upload-time {
+  margin-left: 5px;
+  font-size: 13.5px;
+  color: gray;
+  transition: color 50ms ease-in-out;
 }
 
-.comment-section .bottom-part .upper .upload-time:hover{
-    color:white;
+.comment-section .bottom-part .upper .upload-time:hover {
+  color: white;
 }
 
-.comment-section .bottom-part .lower img{
-    width: 20px;
-    cursor: pointer;
+.comment-section .bottom-part .lower img {
+  width: 20px;
+  cursor: pointer;
 }
 
 .comment-section .bottom-part .lower .like-count {
-    margin: -5px;
-    margin-right: 15px;
-    font-size: 12.5px;
+  margin: -5px;
+  margin-right: 15px;
+  font-size: 12.5px;
 }
 
 .comment-section .bottom-part .lower .reply {
-    margin-left: 10px;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 8px 12px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 12px;
 }
 
 .comment-section .bottom-part .lower .reply:hover {
-    border-radius: 22px;
-    background-color: #484848;
+  border-radius: 22px;
+  background-color: #484848;
 }
 
-.upper{
-    margin-bottom: 8px;
+.upper {
+  margin-bottom: 8px;
 }
 
-.lower{
-    margin-top: -2px;
+.lower {
+  margin-top: -2px;
 }
