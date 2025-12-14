@@ -10,6 +10,10 @@
     aspect-ratio: 16 / 9;
 }
 
+.video-container video:focus{
+    outline: none;
+}
+
 .video-container .video-information {
     width: 90%;
 }
@@ -176,9 +180,13 @@
 }
 
 .comment-section .bottom-part .comment{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
+}
+
+.comment-section .bottom-part .comment:nth-child(1){
+    margin-top: 40px;
 }
 
 .comment-section .bottom-part .upper,

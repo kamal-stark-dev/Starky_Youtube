@@ -1,245 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="./assets/youtube-icons/youtube-logo.png" height="16px">
-  <link rel="stylesheet" href="css/general.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/sidebar.css">
-  <link rel="stylesheet" href="css/videos.css">
-  <title>YouTube</title>
-</head>
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="left-section">
-      <img class="sidebar-icon" src="assets/icons/sidebar.png" alt="sidebar">
-      <a href="#">
-        <img class="main-logo-image" src="assets/youtube-icons/youtube-logo-text.png" alt="youtube icon image">
-      </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="./assets/youtube-icons/youtube-logo.png"
+      height="16px"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
+    <link rel="stylesheet" href="./css/videos.css" />
+    <title>YouTube</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="left-section">
+        <img
+          class="sidebar-icon"
+          src="./assets/icons/sidebar.png"
+          alt="sidebar"
+        />
+        <a href="#">
+          <img
+            class="main-logo-image"
+            src="./assets/youtube-icons/youtube-logo-text.png"
+            alt="youtube icon"
+          />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <img
+          class="search-icon"
+          src="./assets/icons/search.png"
+          alt="search button"
+        />
+        <img
+          class="voice-search-icon"
+          src="./assets/icons/voice-search.png"
+          alt="voice search"
+        />
+      </div>
+      <div class="right-section">
+        <img class="upload-video-icon" src="./assets/icons/upload-viseo.png" />
+        <img class="bell-icon" src="/assets/icons/bell-icon.png" />
+        <img class="current-user-profile" src="./assets/profile/mine.jpg" />
+      </div>
+      <div class="demo-darker"></div>
     </div>
-    <div class="middle-section">
-      <input class="search-bar" type="text" placeholder="Search">
-      <img class="search-icon" src="assets/icons/search.png" alt="search button">
-      <img class="voice-search-icon" src="assets/icons/voice-search.png" alt="voice search">
-    </div>
-    <div class="right-section">
-      <img class="upload-video-icon" src="./assets/icons/upload-viseo.png">
-      <img class="bell-icon" src="/assets/icons/bell-icon.png">
-      <img class="current-user-profile" src="assets/profile/mine.jpg">
-    </div>
-    <div class="demo-darker"></div>
-  </div>
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <div>
-      <img src="/assets/icons/home.png" class="side-icon">Home
-    </div>
-    <div>
-      <img src="./assets/icons/shorts.png" class="side-icon">Shorts
-    </div>
-    <div>
-      <img src="./assets/icons/subscriptions.png" class="side-icon">Subscriptions
-    </div>
-    <hr width="230px" color="#272727">
-    <div>
-    <img src="./assets/icons/library.png" class="side-icon">Library
-    </div>
-    <div>
-      <img src="./assets/icons/history.png" class="side-icon">History
-    </div>
-    <div>
-      <img src="./assets/icons/your-videos.png" class="side-icon">Your videos
-    </div>
-    <div>
-      <img src="./assets/icons/watch-later.png" class="side-icon">Watch later
-    </div>
-    <div>
-      <img src="./assets/icons/liked-videos.png" class="side-icon">Liked videos
-    </div>
-    <div>
-      <img src="./assets/icons/show-more.png" class="side-icon">Show more
-    </div>
-    <hr width="230px" color="#272727">
-    <div>
-      <img src="./assets/icons/trending.png" class="side-icon">Trending
-    </div>
-    <div>
-      <img src="./assets/icons/shopping.png" class="side-icon">Shopping
-    </div>
-    <div>
-      <img src="./assets/icons/music.png" class="side-icon">Music
-    </div>
-    <div>
-      <img src="./assets/icons/movies.png" class="side-icon">Movies
-    </div>
-    <div>
-      <img src="./assets/icons/live.png" class="side-icon">Live
-    </div>
-    <div>
-      <img src="./assets/icons/gaming.png" class="side-icon">Gaming
-    </div>
-    <div>
-      <img src="./assets/icons/news.png" class="side-icon">News
-    </div>
-    <div>
-      <img src="./assets/icons/sports.png" class="side-icon">Sports
-    </div>
-    <div>
-      <img src="./assets/icons/learning.png" class="side-icon">Learning
-    </div>
-    <div>
-      <img src="./assets/icons/fashion-and-beauty.png" class="side-icon">Fashion & Beauty
-    </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div><img src="/assets/icons/home.png" class="side-icon" />Home</div>
+      <div><img src="./assets/icons/shorts.png" class="side-icon" />Shorts</div>
+      <div>
+        <img
+          src="./assets/icons/subscriptions.png"
+          class="side-icon"
+        />Subscriptions
+      </div>
+      <hr width="230px" color="#272727" />
+      <div>
+        <img src="./assets/icons/library.png" class="side-icon" />Library
+      </div>
+      <div>
+        <img src="./assets/icons/history.png" class="side-icon" />History
+      </div>
+      <div>
+        <img src="./assets/icons/your-videos.png" class="side-icon" />Your
+        videos
+      </div>
+      <div>
+        <img src="./assets/icons/watch-later.png" class="side-icon" />Watch
+        later
+      </div>
+      <div>
+        <img src="./assets/icons/liked-videos.png" class="side-icon" />Liked
+        videos
+      </div>
+      <div>
+        <img src="./assets/icons/show-more.png" class="side-icon" />Show more
+      </div>
+      <hr width="230px" color="#272727" />
+      <div>
+        <img src="./assets/icons/trending.png" class="side-icon" />Trending
+      </div>
+      <div>
+        <img src="./assets/icons/shopping.png" class="side-icon" />Shopping
+      </div>
+      <div><img src="./assets/icons/music.png" class="side-icon" />Music</div>
+      <div><img src="./assets/icons/movies.png" class="side-icon" />Movies</div>
+      <div><img src="./assets/icons/live.png" class="side-icon" />Live</div>
+      <div><img src="./assets/icons/gaming.png" class="side-icon" />Gaming</div>
+      <div><img src="./assets/icons/news.png" class="side-icon" />News</div>
+      <div><img src="./assets/icons/sports.png" class="side-icon" />Sports</div>
+      <div>
+        <img src="./assets/icons/learning.png" class="side-icon" />Learning
+      </div>
+      <div>
+        <img
+          src="./assets/icons/fashion-and-beauty.png"
+          class="side-icon"
+        />Fashion & Beauty
+      </div>
 
-    <hr width="230px" color="#272727">
+      <hr width="230px" color="#272727" />
 
-    <p>This is a YouTube clone - made by <a href="https://www.instagram.com/kamal_stark_18/" target="_blank" class="creater-insta">
-      <b>Kamalveer Singh</b></a>.</p>
-    <p>&copy; 2023 by Start Productions</p>
-
-  </div>
-  <main>
-    <div class="video-content">
-
-      <!-- Video 1 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/messi-highlights.jpg">
+      <p>
+        This is a YouTube clone - made by
+        <a
+          href="https://www.x.com/kamal_stark_"
+          target="_blank"
+          class="creater-insta"
+        >
+          <b>Kamalveer Singh</b></a
+        >.
+      </p>
+      <p>&copy; 2023 by Start Productions</p>
+    </div>
+    <main>
+      <div class="video-content">
+        <!-- Video 1 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/messi-highlights.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/espn-sports.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
         </div>
-        <div class="video-info">
-          <img src="/assets/profile/espn-sports.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
+
+        <!-- Video 2 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/aspirants-ep5.jpg" />
+          </div>
+          <div class="video-info">
+            <img src="/assets/profile/tvf.jpg" class="channel-owner-image" />
+            <div class="video-info-text">
+              <p class="video-title">Aspirants EP-5 : The Last Hope</p>
+              <p class="video-channel">TVF</p>
+              <p class="video-views-date">3.4M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/sebastian-chess.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/sebastian sir.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/coding-train.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/channels4_profile.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/weekend-starboy.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/weekend.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/drawing-guy.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/drawing guy.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 7 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/javascript-tutorial.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/super-simple-dev.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 8 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/minecraft-build.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/minecraft.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 9 -->
+        <div class="video">
+          <div class="thumbnail">
+            <img src="/assets/thumbnails/zoro-skills-all.jpg" />
+          </div>
+          <div class="video-info">
+            <img
+              src="/assets/profile/jvrShow.jpg"
+              class="channel-owner-image"
+            />
+            <div class="video-info-text">
+              <p class="video-title">
+                Messi Took the Breadth away of the audience.
+              </p>
+              <p class="video-channel">ESPN Sports</p>
+              <p class="video-views-date">373K views &#183; 5 days ago</p>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- Video 2 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/aspirants-ep5.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/tvf.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Aspirants EP-5 : The Last Hope</p>
-            <p class="video-channel">TVF</p>
-            <p class="video-views-date">3.4M views &#183; 3 months ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 3 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/sebastian-chess.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/sebastian sir.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 4 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/coding-train.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/channels4_profile.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 5 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/weekend-starboy.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/weekend.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 6 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/drawing-guy.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/drawing guy.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 7 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/javascript-tutorial.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/super-simple-dev.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 8 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/minecraft-build.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/minecraft.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 9 -->
-      <div class="video">
-        <div class="thumbnail">
-          <img src="/assets/thumbnails/zoro-skills-all.jpg">
-        </div>
-        <div class="video-info">
-          <img src="/assets/profile/jvrShow.jpg" class="channel-owner-image">
-          <div class="video-info-text">
-            <p class="video-title">Messi Took the Breadth away of the audience.</p>
-            <p class="video-channel">ESPN Sports</p>
-            <p class="video-views-date">373K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
