@@ -1,57 +1,86 @@
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Grid container */
 .video-content {
-    display: grid;
-    gap: 12px;
-    row-gap: 42px;
-    grid-template-columns: repeat(3, 1fr);
-    z-index: 10;
+  display: grid;
+  gap: 12px;
+  row-gap: 36px;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 10;
 }
 
-@media screen and (max-width : 1200px) {
-    .video-content {
-        grid-template-columns: 1fr 1fr;
-    }
+/* Responsive grid */
+@media screen and (max-width: 1200px) {
+  .video-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* Video card */
 .video {
-    width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+  border-radius: 1rem;
+  transition: background-color 0.25s ease-in;
+}
+
+.video:hover {
+  background-color: #222;
 }
 
 .video p {
-    margin: 0;
+  margin: 0;
 }
 
+/* Thumbnail wrapper */
 .thumbnail {
-    width: inherit;
+  width: 100%;
 }
 
-.thumbnail img{
-    border-radius: 20px;
-    max-width: 400px;
-    margin-bottom: 10px;
-    cursor: pointer;
+/* Thumbnail image (FIXED) */
+.thumbnail img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: block;
 }
 
-.channel-owner-image {
-    height: 42px;
-    border-radius: 26px;
-    margin-right: 12px;
-    cursor: pointer;
-}
-
+/* Video info section */
 .video-info {
-    display: flex;
-    width: inherit;
+  display: flex;
+  width: 100%;
 }
 
+/* Text styles */
 .video-title {
-    font-size: 18px;
-    padding-bottom: 8px;
-    cursor: pointer;
+  font-size: 18px;
+  padding-bottom: 8px;
+  cursor: pointer;
 }
 
 .video-channel,
 .video-views-date {
-    font-size: 16px;
-    color: rgb(176, 176, 176);
-    cursor: pointer;
+  font-size: 16px;
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+
+/* Channel image */
+.channel-owner-image {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
 }
