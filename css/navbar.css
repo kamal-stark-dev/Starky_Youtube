@@ -82,9 +82,9 @@
 }
 
 .search-icon {
-  height: 19px;
+  /* height: 19px; */
   margin-left: -1px;
-  padding: 13px 25px;
+  padding: 10px 25px;
   border: 1px solid #222222;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -93,7 +93,7 @@
 }
 
 .voice-search-icon {
-  height: 20px;
+  /* height: 20px; */
   margin-left: 18px;
   border: 1px solid black;
   border-radius: 50px;
