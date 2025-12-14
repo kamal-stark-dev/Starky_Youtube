@@ -36,6 +36,11 @@
   background-color: #222;
 }
 
+.video a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .video p {
   margin: 0;
 }
